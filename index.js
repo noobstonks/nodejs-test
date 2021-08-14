@@ -7,12 +7,15 @@ console.log("free memory: ",os.freemem());
 console.log(randomNumberDice());
 
 const fs = require ("fs");
-const isi = fs.readFileSync("./text.txt", "utf-8");
+const sabrina = require('./person.json');
 
-console.log(isi);
+console.log(sabrina);
 
-fs.writeFileSync("./test.txt", "i love binar");
+// const isi = fs.readFileSync("./text.txt", "utf-8"); (sudah jalan)
 
+// console.log(isi); (sudah jalan)
+
+// fs.writeFileSync("./test.txt", "i love binar"); (sudah jalan)
 
 
 
