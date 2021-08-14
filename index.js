@@ -11,7 +11,7 @@ const isi = fs.readFileSync("./text.txt", "utf-8");
 
 console.log(isi);
 
-
+fs.writeFileSync("./test.txt", "i love binar");
 
 
 
